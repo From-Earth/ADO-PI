@@ -97,6 +97,7 @@
     font-size: 18px;
     line-height: 22px;
     color: var(--branco);
+    cursor: pointer;
 }
 
 .formulario__imagem {
@@ -111,6 +112,7 @@
 .formulario__botao--ancora {
     text-decoration: none;
     width: 50%;
+    
 }
 
 .formulario__texto {

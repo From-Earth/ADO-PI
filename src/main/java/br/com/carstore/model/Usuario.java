@@ -17,6 +17,20 @@ public class Usuario {
 
     private String numero_endereco;
 
+    public Usuario (String nome, String cpf, String email, String senha, String telefone, String logradouro, String numero_endereco) {
+        this.nome = nome;
+        this.cpf = cpf;
+        this.email = email;
+        this.senha = senha;
+        this.telefone = telefone;
+        this.logradouro = logradouro;
+        this.numero_endereco = numero_endereco;
+    }
+
+    public Usuario () {
+
+    }
+
     public int getId() {
         return id;
     }
